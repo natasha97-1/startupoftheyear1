@@ -1,0 +1,53 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  /*From csstricksperfectfullpagebackground website copu code*/
+  background: url(header.jpg) no-repeat center center fixed; /*For a flexible background*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+  background-size: cover;
+}
+
+h1{
+	font-size: 3rem;
+	color: grey;
+}
+
+hr{
+  border-color: red;
+  border-width: 3px;
+  max-width: 65px;
+}
+
+.buffer{
+height: 17rem;
+}
+
+.btn{
+	font-weight: 700;
+	border-radius: 200px;
+	text-transform: uppercase;
+}
+
+.btn-primary{
+	background-color: red;
+  border-color: red;
+}
+
+.btn-primary:hover{
+  background-color: #550000;
+  border-color: #550000;
+  border-width: 6px;
+}
+
+
+.btn-xl{
+padding: 1rem 2rem; /*adds space/padding to sides of butto*/
+
+}
+
+
+
